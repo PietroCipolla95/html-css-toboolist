@@ -13,6 +13,10 @@
 
 /* end General Utility */
 
+html{
+    font-family: var(--todo--font);
+}
+
 img{
     vertical-align: middle;
 }
@@ -27,6 +31,7 @@ h1{
 h2{
     font-family: var(--todo--font);
 }
+
 
 header{
     background-color: white;
@@ -49,6 +54,11 @@ body{
     padding: 15px 40px;
 }
 
+hr{
+    border-color: var(--todo--bgpage);
+    border: none;
+}
+
 #button_task, #button_section{
     background-color: white;
     border-radius: 5px;
@@ -66,3 +76,5 @@ body{
     color: gray;
     border: solid 1px;
 }
+
+
