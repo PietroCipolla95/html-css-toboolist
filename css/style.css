@@ -1,5 +1,14 @@
 /* General Utility */
 
+:root{
+    --todo--primary: #47adf1;
+    --todo--website: #d863a0;
+    --todo--recruiting: #64c0a9;
+    --todo--q1goals: #9c72e4;
+    --todo--mobile: #f29e33;
+    --todo--sales: #b0c926;
+}
+
 img{
     vertical-align: middle;
 }
@@ -30,4 +39,22 @@ body{
 .commands{
     margin-bottom: 5px;
     padding: 15px 40px;
+}
+
+#button_task, #button_section{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#button_task{
+    color: white;
+    border: none;
+    background-color: var(--todo--primary);
+}
+
+#button_section{
+    border-color: lightgrey;
+    color: gray;
+    border: solid 1px;
 }
