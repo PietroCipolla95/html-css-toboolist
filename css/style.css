@@ -1,4 +1,4 @@
-/* section General Utility */
+/* #region General Utility */
 
 :root{
     --todo--primary: #47adf1;
@@ -11,11 +11,14 @@
     --todo--font: arial, Helvetica, sans-serif;
 }
 
-/* end General Utility */
-
 html{
     font-family: var(--todo--font);
 }
+
+
+/* #endregion General Utility */
+
+/* #region Header */
 
 img{
     vertical-align: middle;
@@ -28,27 +31,32 @@ h1{
     font-size: 40px;
 }
 
+header{
+    background-color: white;
+    height: 100px;
+}
+
+
+/* #endregion Header */
+
 h2{
     font-family: var(--todo--font);
 }
 
 
-header{
-    background-color: white;
-    height: 100px;
-}
 
 body{
     background-color: var(--todo--bgpage);
 }
 
 .main{
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-top: 5px;
     background-color: white;
 }
 
+/* #region Commands */
 .commands{
     margin-bottom: 5px;
     padding: 15px 40px;
@@ -77,4 +85,60 @@ hr{
     border: solid 1px;
 }
 
+/* #endregion Commands */
 
+/* #region crossmarks and checkmarks */
+.checkmark{
+    color: lightgreen;
+    background-color: white;
+    border: solid lightgreen;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.xmark{
+    color: red;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* #endregion crossmarks and checkmarks */
+
+/* #region bookmarks */
+
+.bookmark{
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.editorial{
+    background-color: var(--todo--primary);    
+}
+
+.q1goals{
+    background-color: var(--todo--q1goals);
+}
+
+.recruiting{
+    background-color: var(--todo--recruiting);
+}
+
+.mobile{
+    background-color: var(--todo--mobile);
+}
+
+.website{
+    background-color: var(--todo--website);
+}
+
+.sales{
+    background-color: var(--todo--sales);
+}
+
+/* #endregion bookmarks */
