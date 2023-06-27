@@ -69,6 +69,11 @@ body{
     margin-bottom: 100px;
 }
 
+p{
+    margin-bottom: 30px;
+}
+
+
 /* #endregion BodyLayout */
 
 
@@ -157,7 +162,6 @@ hr{
 }
 
 /* #endregion bookmarks */
-
 
 
 
