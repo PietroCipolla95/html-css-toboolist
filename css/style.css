@@ -40,6 +40,8 @@ header{
 /* #endregion Header */
 
 
+/* #region BodyLayout */
+
 body{
     background-color: var(--todo--bgpage);
 }
@@ -56,6 +58,8 @@ body{
     margin-left: 50px;
     margin-bottom: 100px;
 }
+
+/* #endregion BodyLayout */
 
 
 /* #region Commands */
