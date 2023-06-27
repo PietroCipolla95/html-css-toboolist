@@ -39,22 +39,23 @@ header{
 
 /* #endregion Header */
 
-h2{
-    font-family: var(--todo--font);
-}
-
-
 
 body{
     background-color: var(--todo--bgpage);
 }
 
-.main{
+.page{
     width: 60%;
     margin: auto;
     margin-top: 5px;
     background-color: white;
 }
+
+.all_tasks{
+    display: inline-block;
+    margin-left: 50px;
+}
+
 
 /* #region Commands */
 .commands{
@@ -145,7 +146,5 @@ hr{
 
 
 
-.all_task{
-    display: inline-block;
-    padding-left: 50px;
-}
+
+
