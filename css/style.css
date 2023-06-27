@@ -1,4 +1,4 @@
-/* General Utility */
+/* section General Utility */
 
 :root{
     --todo--primary: #47adf1;
@@ -7,7 +7,11 @@
     --todo--q1goals: #9c72e4;
     --todo--mobile: #f29e33;
     --todo--sales: #b0c926;
+    --todo--bgpage: #f6f8f9;
+    --todo--font: arial, Helvetica, sans-serif;
 }
+
+/* end General Utility */
 
 img{
     vertical-align: middle;
@@ -16,8 +20,12 @@ img{
 
 h1{
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--todo--font);
     font-size: 40px;
+}
+
+h2{
+    font-family: var(--todo--font);
 }
 
 header{
@@ -26,7 +34,7 @@ header{
 }
 
 body{
-    background-color: #f6f8f9;
+    background-color: var(--todo--bgpage);
 }
 
 .main{
