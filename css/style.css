@@ -12,5 +12,22 @@ h1{
 }
 
 header{
+    background-color: white;
     height: 100px;
+}
+
+body{
+    background-color: #f6f8f9;
+}
+
+.main{
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.commands{
+    margin-bottom: 5px;
+    padding: 15px 40px;
 }
