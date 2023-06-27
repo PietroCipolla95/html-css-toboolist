@@ -59,7 +59,7 @@ body{
 /* #region Commands */
 .commands{
     margin-bottom: 5px;
-    padding: 15px 40px;
+    padding: 15px 50px;
 }
 
 hr{
@@ -142,3 +142,10 @@ hr{
 }
 
 /* #endregion bookmarks */
+
+
+
+.all_task{
+    display: inline-block;
+    padding-left: 50px;
+}
